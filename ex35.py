@@ -11,7 +11,7 @@ def gold_room():
 		
 	if how_much < 50:
 		print "Nice, you're not gready, you win!"
-		exit(0)
+		exit(0)#这里代表正常的退出
 	else:
 		dead("You greedy bastard!")
 		
